@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Indraprastha Computer Education, Sakri</p>
+                <p class="subtitle">There is no other sweetness in education</p>
+            </div>
+            <div class="result hide">
+                <p>Your score</p>
+                <p class="reload">
+                    <button type="submit" onclick="document.location.reload(true)">Try Agian?</button>
+                </p>
+            </div>
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. How do you call a function named "myFunction"?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="A">call function myFunction()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="B">myFunction()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="C">call myFunction()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="D">function myFunction()</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>2. How to write an IF statement in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="A">if i = 5 then</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="B">if i = 5</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label for="C">if (i == 5)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="D">if i == 5 then</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>3. How do you find the number with the highest value of x and y?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="A">Math.ceil(x, y)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for="B">top(x, y)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="C">ceil(x, y)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="D">Math.max(x, y)</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>4. What is the correct way to write a JavaScript array?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="A">var colors = ["red", "green", "blue"]</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="B">var colors = "red", "green", "blue"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="C">var colors = ("red", "green", "blue")</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="D">var colors = (1:"red", 2:"green", 3:"blue")]</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>5. How do you round the number 7.25, to the nearest integer?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="A">Math.round(7.25)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="B">rnd(7.25)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="C">round(7.25)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="D">Math.rnd(7.25)</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
